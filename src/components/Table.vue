@@ -4,7 +4,7 @@
     <div v-if="isLoading" class="vgt-loading vgt-center-align">
       <slot name="loadingContent">
         <span class="vgt-loading__content">
-          Loading...
+          Wird geladen...
         </span>
       </slot>
     </div>
