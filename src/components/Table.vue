@@ -237,6 +237,7 @@
               </th>
               <td
                 @click="onCellClicked(row, column, index, $event)"
+                :data-cy="column.label || ''"
                 v-for="(column, i) in columns"
                 :key="i"
                 :class="getClasses(i, 'td', row)"
